@@ -1,0 +1,22 @@
+{
+  "name": "socio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon --watch './**/*.ts' --exec ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "divyansh jaiswal",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.8.1",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.2"
+  }
+}
